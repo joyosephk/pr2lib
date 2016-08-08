@@ -43,7 +43,7 @@ Then run the following:
 `roslaunch pr2_gazebo pr2_empty_world.launch` // Spawn pr2 in simulation <br />
 `rosrun rviz rviz`  // interface to see all the internal states
 
-####Simple control commands
+####Simple control commands (.py files may need to be chmod)
 `roslaunch pr2_teleop teleop_keyboard.launch`  // keyboard teleop <br />
 `rosrun pr2lib movebase.py`   // move the base of the robot with velocity vector and duration <br />
 `rosrun pr2lib head.py`   // change static position of the head <br />
